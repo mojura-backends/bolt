@@ -1,4 +1,4 @@
-module github.com/mojura/boltDB
+module github.com/mojura-backends/bolt
 
 go 1.15
 
