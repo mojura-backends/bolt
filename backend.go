@@ -12,7 +12,7 @@ type Backend struct {
 
 // Transaction will initialize a new read-write transaction
 func (b *Backend) Transaction(fn func(backend.Transaction) error) (err error) {
-	return b.db.View(func(txn *bolt.Tx) (err error) {
+	return b.db.Update(func(txn *bolt.Tx) (err error) {
 		t := Transaction{txn: txn}
 		return fn(&t)
 	})
