@@ -28,5 +28,11 @@ type Initializer struct {
 
 // New will return a new instance of Backend
 func (i *Initializer) New(filename string) (b backend.Backend, err error) {
+	var be Backend
+	if be.db, err = bolt.Open(filename, 0644, i.opts); err != nil {
+		return
+	}
+
+	b = &be
 	return
 }
