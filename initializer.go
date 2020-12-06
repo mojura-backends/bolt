@@ -9,8 +9,8 @@ import (
 
 var defaultOpts = &bolt.Options{Timeout: 1 * time.Second}
 
-// New will create a new initializer
-func New(opts *bolt.Options) backend.Initializer {
+// New will create a new initializer with default options
+func New() backend.Initializer {
 	return NewWithOpts(defaultOpts)
 }
 
