@@ -53,5 +53,5 @@ func (b *Bucket) GetOrCreateBucket(key []byte) (bkt backend.Bucket, err error) {
 
 // ForEach will iterate through all the entries within a bucket
 func (b *Bucket) ForEach(fn func(key, value []byte) error) (err error) {
-	return b.ForEach(fn)
+	return b.b.ForEach(fn)
 }
