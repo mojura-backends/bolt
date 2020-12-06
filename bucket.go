@@ -27,7 +27,7 @@ func (b *Bucket) Delete(key []byte) error {
 
 // Cursor will return a new cursor
 func (b *Bucket) Cursor() backend.Cursor {
-	return b.Cursor()
+	return b.b.Cursor()
 }
 
 // GetBucket will get a bucket
