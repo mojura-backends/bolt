@@ -1,7 +1,7 @@
 package bolt
 
 import (
-	"github.com/boltdb/bolt"
+	"github.com/gdbu/bolt"
 	"github.com/mojura/backend"
 )
 

@@ -3,7 +3,7 @@ package bolt
 import (
 	"time"
 
-	"github.com/boltdb/bolt"
+	"github.com/gdbu/bolt"
 	"github.com/mojura/backend"
 )
 
