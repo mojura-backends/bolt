@@ -4,5 +4,5 @@ go 1.15
 
 require (
 	github.com/gdbu/bolt v1.4.0
-	github.com/mojura/backend v0.1.1
+	github.com/mojura/backend v0.2.0
 )
