@@ -51,6 +51,11 @@ func (b *Bucket) GetOrCreateBucket(key []byte) (bkt backend.Bucket, err error) {
 	return
 }
 
+// DeleteBucket will get a bucket
+func (b *Bucket) DeleteBucket(key []byte) (err error) {
+	return b.b.DeleteBucket(key)
+}
+
 // ForEach will iterate through all the entries within a bucket
 func (b *Bucket) ForEach(fn func(key, value []byte) error) (err error) {
 	return b.b.ForEach(fn)
