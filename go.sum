@@ -1,6 +1,6 @@
 github.com/gdbu/bolt v1.4.0 h1:y0KmQLexHzWrpx3vdmqsFdgyRBKze/6jir9/y6Qw2Ig=
 github.com/gdbu/bolt v1.4.0/go.mod h1:VxXGB8ehMDPaJIu3txG1PboAODVQu1mVDDN8i9FBVUU=
-github.com/mojura/backend v0.2.0 h1:/qQeENiLQEykry28g12S+MwwVzbF2geAzrJgXTyQXn0=
-github.com/mojura/backend v0.2.0/go.mod h1:JasOEo8h+g7kp7qybW3K3F7qtcITeknVo27tSOibD6c=
+github.com/mojura/backend v0.2.1 h1:IvyZeWcAAu8TZ1u3cB5+9WtA0NbWbAsf5iymuDQ8LBs=
+github.com/mojura/backend v0.2.1/go.mod h1:JasOEo8h+g7kp7qybW3K3F7qtcITeknVo27tSOibD6c=
 golang.org/x/sys v0.0.0-20201207223542-d4d67f95c62d h1:MiWWjyhUzZ+jvhZvloX6ZrUsdEghn8a64Upd8EMHglE=
 golang.org/x/sys v0.0.0-20201207223542-d4d67f95c62d/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=

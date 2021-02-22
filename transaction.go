@@ -30,3 +30,8 @@ func (t *Transaction) GetOrCreateBucket(key []byte) (bkt backend.Bucket, err err
 	bkt = &Bucket{b: bucket}
 	return
 }
+
+// GetBucket will get a bucket
+func (t *Transaction) DeleteBucket(key []byte) (err error) {
+	return t.txn.DeleteBucket(key)
+}
